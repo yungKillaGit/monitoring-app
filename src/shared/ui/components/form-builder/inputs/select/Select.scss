@@ -1,0 +1,9 @@
+.Select {
+  &:not(&_full-width) {
+    width: 120px;
+  }
+
+  &__menu-list {
+    max-height: 196px;
+  }
+}

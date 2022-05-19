@@ -1,0 +1,12 @@
+.DataTable {
+  &__row {
+    &_clickable {
+      cursor: pointer;
+    }
+  }
+
+  &__cell {
+    &_actions {
+    }
+  }
+}

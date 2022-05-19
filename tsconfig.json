@@ -18,7 +18,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@pages": ["pages"],
+      "@features/*": ["features/*"],
+      "@entities/*": ["entities/*"],
+      "@widgets/*": ["widgets/*"],
+      "@api": ["shared/api"],
+      "@lib": ["shared/lib"],
+      "@ui": ["shared/ui"],
+      "@types": ["shared/types"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/react-app-env.d.ts"]
   },
   "include": [
     "src"
